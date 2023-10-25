@@ -1,0 +1,7 @@
+__pychache__
+venv
+data/
+.env
+test_copy.ipynb
+test.ipynb
+AQ.pbix
