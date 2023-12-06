@@ -262,7 +262,7 @@ if get_predictions:
 
         yhat = model_fit.forecast()[0]
         predictions.append(yhat)
-        history.append(y[0])
+        history.append(y.iloc[0])
 
         total_iterations = len(y)
         for i in range(1, len(y)):
@@ -276,7 +276,7 @@ if get_predictions:
             # invert transformed prediction
             predictions.append(yhat)
             # observation
-            obs = y[i]
+            obs = y.iloc[i]
             history.append(obs)
         progress_bar.empty()
         message_placeholder.empty()
