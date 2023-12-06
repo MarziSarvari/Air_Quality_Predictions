@@ -5,7 +5,7 @@
 1. Visit [EEADMZ1 Downloads WebApp](https://eeadmz1-downloads-webapp.azurewebsites.net/)
 2. Choose Country: Select "Czech Republic (Czechia)"
 3. Cities: Keep as "All"
-4. Pollutants: Choose "No2, Pm10, O3, Pm2.5, So2"
+4. Pollutants: Choose "No2, Pm10, O3, Pm2.5, So2, CO"
 5. Datasets: Leave as "All"
 6. Click "Download" (Wait for download completion)
 7. Click "Metadata" and select "Czechia"
