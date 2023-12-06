@@ -25,7 +25,8 @@ def load_data():
             dfs.append(df)
 
     df = pd.concat(dfs, ignore_index=True)
-    additional_data = pd.read_csv('data\DataExtract.csv')   
+    data_path = os.path.join('data', 'DataExtract.csv')
+    additional_data = pd.read_csv(data_path)   
     df['Sampling Point Id'] = extract_sampling_point_id(df['Samplingpoint'])
     # Merge the 'B-G Namespace' column from additional_data into df based on the 'Sampling Point Id' column
     df = pd.merge(df, additional_data[['Sampling Point Id', 'Air Quality Station Name', 'Air Pollutant', 'Longitude','Latitude',
