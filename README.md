@@ -8,7 +8,7 @@
 4. Pollutants: Choose "No2, Pm10, O3, Pm2.5, So2, CO"
 5. Datasets: Leave as "All"
 6. Click "Download" (Wait for download completion)
-7. Click "Metadata" and select "Czechia"
+7. Click "Metadata" and select "Czechia" for country.
 8. Download CSV file
 
 ## Pre-Setup Part 2: Project Initialization
