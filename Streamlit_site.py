@@ -3,7 +3,6 @@ import os
 import streamlit as st
 from statsmodels.tsa.arima.model import ARIMA
 from sklearn.metrics import mean_squared_error, mean_absolute_error
-import matplotlib.pyplot as plt
 import altair as alt
 
 import math
