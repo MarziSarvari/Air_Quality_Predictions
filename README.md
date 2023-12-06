@@ -37,7 +37,7 @@ Upon execution, a window should open in your primary browser.
 
 ## Accessing Online Deployment
 
-This project is also hosted online at [16.171.194.83](http://16.171.194.83).  Please note that the server might be slow. Access the deployed version by visiting the provided IP address. Another simplified version of project is also hosted online at [airquality-cz-predictions.streamlit.app](https://airquality-cz-predictions.streamlit.app/). This version is the same but with limited data consiisting only Brno.
+This project is also hosted online at [16.171.194.83](http://16.171.194.83).  Please note that the server might be slow. Access the deployed version by visiting the provided IP address. Another simplified version of project is also hosted online at [airquality-cz-predictions.streamlit.app](https://airquality-cz-predictions.streamlit.app). This version is the same but with limited data consiisting only Brno.
 
 ## Usage
 
